@@ -12,6 +12,22 @@
 				alert("Salut tout le monde!");
 			}
 		</script>
+		
+		<p>
+			<form method='post' action='connexionPost.php'>
+				<label for='pseudo'> Pseudo: </label></br>
+				<input type='text' name='pseudo' autofocus required/></br></br>
+
+				<label for='mdp'> Mot de passe: </label></br>
+				<input type='password' name='mdp' required/></br></br>
+
+				<label for="connexionAuto"> Connexion automatique </label></br>
+				<input type="checkbox" name="connexionAuto"/>
+				<br/><br/>
+
+				<input type="submit" value="Envoyer"/>
+			</form>
+		</p>
 
 	</body>
 </html>
